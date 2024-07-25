@@ -1,0 +1,20 @@
+{
+  "name": "playwright-node",
+  "version": "1.0.0",
+  "description": "lear nodejs",
+  "main": "t.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Sonu Kol",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "playwright": "^1.45.3"
+  }
+}
