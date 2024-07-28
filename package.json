@@ -1,14 +1,15 @@
 {
   "name": "playwright-node",
   "version": "1.0.0",
-  "description": "lear nodejs",
+  "description": "Node.js application using Playwright",
   "main": "t.js",
   "scripts": {
-    "start": "node t.js",
-    "postinstall": "playwright install"
+    "postinstall": "npx playwright install",
+    "start": "node t.js"
   },
   "keywords": [
-    "node"
+    "node",
+    "playwright"
   ],
   "author": "Sonu Kol",
   "license": "ISC",
